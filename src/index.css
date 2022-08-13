@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app {
+    @apply h-screen w-full overflow-auto p-2 bg-gradient-to-tr from-blue-400 via-pink-500 to-blue-400;
+}
+
+.button {
+    @apply rounded-md p-1 font-semibold col-span-1;
+}
