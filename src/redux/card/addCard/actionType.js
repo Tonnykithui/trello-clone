@@ -1,3 +1,3 @@
-export const ADD_CARDLIST_REQ = 'ADD_CARDLIST_REQ';
-export const ADD_CARDLIST_SUC = 'ADD_CARDLIST_SUC';
-export const ADD_CARDLIST_ERR = 'ADD_CARDLIST_ERR';
+export const ADD_CARD_REQ = 'ADD_CARD_REQ';
+export const ADD_CARD_SUC = 'ADD_CARD_SUC';
+export const ADD_CARD_ERR = 'ADD_CARD_ERR';
