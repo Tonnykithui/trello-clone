@@ -1,0 +1,3 @@
+export const DELETE_CARD_REQ = 'DELETE_CARD_REQ';
+export const DELETE_CARD_SUC = 'DELETE_CARD_SUC';
+export const DELETE_CARD_ERR = 'DELETE_CARD_ERR';

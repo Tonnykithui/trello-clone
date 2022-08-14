@@ -1,0 +1,3 @@
+export const UPDATE_CARD_REQ = 'UPDATE_CARD_REQ';
+export const UPDATE_CARD_SUC = 'UPDATE_CARD_SUC';
+export const UPDATE_CARD_ERR = 'UPDATE_CARD_ERR';
