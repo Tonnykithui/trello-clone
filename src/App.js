@@ -5,6 +5,7 @@ import ReactTextareaAutosize from "react-textarea-autosize";
 import Add from "./components/Add";
 import { useSelector, useDispatch } from 'react-redux'
 import { getCardListThunk } from "./redux/cardlist";
+import { getCardThunk } from "./redux/card";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
 
   useEffect(() => {
     dispatch(getCardListThunk())
+    dispatch(getCardThunk())
   }, [])
   
   return (

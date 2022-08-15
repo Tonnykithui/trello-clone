@@ -19,6 +19,10 @@
     {
       "textArea": "Book reading",
       "id": 5
+    },
+    {
+      "textArea": "try",
+      "id": 6
     }
   ],
   "card": [
@@ -86,6 +90,21 @@
       "text": "Book reading",
       "textArea": "Visit library",
       "id": 17
+    },
+    {
+      "text": "Cooking",
+      "textArea": "all i need is you",
+      "id": 18
+    },
+    {
+      "text": "Cooking",
+      "textArea": "something new",
+      "id": 19
+    },
+    {
+      "text": "Cooking",
+      "textArea": "React is good",
+      "id": 20
     }
   ]
 }

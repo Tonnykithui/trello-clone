@@ -8,13 +8,11 @@ const CardList = ({text}) => {
 
     const [showTextArea, setShowTextArea] = useState(false);
     const cards = useSelector(state => state.getCard.data);
-    console.log(cards);
     const cardsToList = cards.filter((item) => item.text === text);
-    console.log(`${text}`, cardsToList);
+
     const hideTextArea = () => {
         setShowTextArea(!showTextArea);
     }
-    console.log(text);
 
   return (
     <div className='p-2 bg-white rounded-sm relative mr-2 h-full min-w-full'>
