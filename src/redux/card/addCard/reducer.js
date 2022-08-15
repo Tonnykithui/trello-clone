@@ -1,4 +1,4 @@
-import { ADD_CARD_ERR, ADD_CARD_REQ, ADD_CARD_SUC } from "./actionType";
+import { ADD_CARD_ERR, ADD_CARD_REQ, ADD_CARD_SUC } from "./ActionType";
 
 export const init = {
     loading:false,

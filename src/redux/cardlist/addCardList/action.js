@@ -1,5 +1,6 @@
 import axios from "axios"
-import { ADD_CARDLIST_ERR, ADD_CARDLIST_REQ, ADD_CARDLIST_SUC } from "./actionType"
+import { getCardListThunk } from "../getCardList/Action"
+import { ADD_CARDLIST_ERR, ADD_CARDLIST_REQ, ADD_CARDLIST_SUC } from "./ActionType"
 
 export const addCardListReq = data => {
     return {
@@ -29,6 +30,7 @@ export const addCardListThunk = data => {
              .then(response => {
                 const resp = response.data;
                 dispatch(addCardListSuc(resp));
+                dispatch(getCardListThunk())
              })
              .catch(error => {
                 const err = error.Message;

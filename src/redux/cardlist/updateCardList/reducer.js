@@ -1,4 +1,4 @@
-import { UPDATE_CARDLIST_ERR, UPDATE_CARDLIST_REQ, UPDATE_CARDLIST_SUC } from "./actionType";
+import { UPDATE_CARDLIST_ERR, UPDATE_CARDLIST_REQ, UPDATE_CARDLIST_SUC } from "./ActionType";
 
 export const init = {
     loading:false,

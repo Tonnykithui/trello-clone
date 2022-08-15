@@ -1,19 +1,21 @@
-import { ADD_CARDLIST_ERR, ADD_CARDLIST_REQ, ADD_CARDLIST_SUC } from "./actionType";
+import { ADD_CARDLIST_ERR, ADD_CARDLIST_REQ, ADD_CARDLIST_SUC } from "./ActionType";
 
-export const init = {
-    loading:false,
+const init = {
+    loading:true,
     data:[],
     error:''
 }
 
 const addCardListReducer = (state = init, action) => {
+
     switch (action.type) {
         case ADD_CARDLIST_REQ:
             return {
                 ...state,
                 loading:true
             }
-
+            
+            
         case ADD_CARDLIST_SUC:
             return {
                 ...state,

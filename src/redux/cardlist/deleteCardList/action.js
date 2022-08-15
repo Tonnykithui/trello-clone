@@ -1,5 +1,5 @@
 import axios from "axios"
-import { DELETE_CARDLIST_ERR, DELETE_CARDLIST_REQ, DELETE_CARDLIST_SUC } from "./actionType"
+import { DELETE_CARDLIST_ERR, DELETE_CARDLIST_REQ, DELETE_CARDLIST_SUC } from "./ActionType"
 
 export const deleteCardListReq = data => {
     return {

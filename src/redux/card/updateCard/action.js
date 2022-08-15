@@ -1,5 +1,5 @@
 import axios from "axios"
-import { UPDATE_CARD_ERR, UPDATE_CARD_REQ, UPDATE_CARD_SUC } from "./actionType"
+import { UPDATE_CARD_ERR, UPDATE_CARD_REQ, UPDATE_CARD_SUC } from "./ActionType"
 
 export const updateCardReq = data => {
     return {
