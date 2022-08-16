@@ -19,7 +19,7 @@ const CardList = ({text}) => {
         <h1 className='font-semibold '>{text}</h1>
         {
             cardsToList.map((item) => (
-                <Card key={item.id} info={item.textArea} />
+                <Card key={item.id} info={item.textArea} id={item.id}/>
             ))
         }
         {

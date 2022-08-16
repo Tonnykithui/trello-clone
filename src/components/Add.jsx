@@ -19,9 +19,8 @@ const Add = ({ hideTextArea, cardList, text }) => {
           text,
           textArea
         }
-
-        setTextArea('');
         cardList ? dispatch(addCardListThunk(title)) : dispatch(addCardThunk(cardInfo));
+        setTextArea('');
     }
 
   return (

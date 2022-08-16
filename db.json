@@ -27,84 +27,14 @@
   ],
   "card": [
     {
-      "text": "Cleaning",
-      "textArea": "hello",
+      "text": "Cooking",
+      "textArea": "Do it right",
+      "id": 3
+    },
+    {
+      "text": "Cooking",
+      "textArea": "tonny",
       "id": 5
-    },
-    {
-      "text": "Cooking",
-      "textArea": "slide",
-      "id": 6
-    },
-    {
-      "text": "Cooking",
-      "textArea": "Something to eat",
-      "id": 7
-    },
-    {
-      "text": "Cooking",
-      "textArea": "somthing else",
-      "id": 8
-    },
-    {
-      "text": "Cleaning",
-      "textArea": "hi",
-      "id": 9
-    },
-    {
-      "text": "Cleaning",
-      "textArea": "make clean",
-      "id": 10
-    },
-    {
-      "text": "Bike riding",
-      "textArea": "anyday",
-      "id": 11
-    },
-    {
-      "text": "Bike riding",
-      "textArea": "anytime",
-      "id": 12
-    },
-    {
-      "text": "Bike riding",
-      "textArea": "anytime",
-      "id": 13
-    },
-    {
-      "text": "Bike riding",
-      "textArea": "hows that",
-      "id": 14
-    },
-    {
-      "text": "Bike riding",
-      "textArea": "good stuff",
-      "id": 15
-    },
-    {
-      "text": "Gym",
-      "textArea": "From 3",
-      "id": 16
-    },
-    {
-      "text": "Book reading",
-      "textArea": "Visit library",
-      "id": 17
-    },
-    {
-      "text": "Cooking",
-      "textArea": "all i need is you",
-      "id": 18
-    },
-    {
-      "text": "Cooking",
-      "textArea": "something new",
-      "id": 19
-    },
-    {
-      "text": "Cooking",
-      "textArea": "React is good",
-      "id": 20
     }
   ]
 }

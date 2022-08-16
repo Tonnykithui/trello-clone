@@ -1,4 +1,5 @@
 import axios from "axios"
+import { getCardThunk } from "../getCard/Action"
 import { DELETE_CARD_ERR, DELETE_CARD_REQ, DELETE_CARD_SUC } from "./ActionType"
 
 export const deleteCardReq = data => {
@@ -29,6 +30,7 @@ export const deleteCardThunk = data => {
              .then(response => {
                 const resp = response.data;
                 dispatch(deleteCardSuc(resp));
+                dispatch(getCardThunk());
              })
              .catch(error => {
                 const err = error.Message;
