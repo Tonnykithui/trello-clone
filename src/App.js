@@ -28,7 +28,7 @@ function App() {
       <div className="flex flex-row w-80">
         {
           cardsList.map((list) => (
-            <CardList key={list.id} id={list.id} text={list.textArea} />
+            <CardList key={list.id} id={list.id} textId={list.textArea} />
           ))
         }
         {

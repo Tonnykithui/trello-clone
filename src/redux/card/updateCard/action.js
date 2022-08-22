@@ -1,4 +1,5 @@
 import axios from "axios"
+import { getCardThunk } from "../getCard/Action"
 import { UPDATE_CARD_ERR, UPDATE_CARD_REQ, UPDATE_CARD_SUC } from "./ActionType"
 
 export const updateCardReq = data => {
@@ -25,10 +26,11 @@ export const updateCardErr = error => {
 export const updateCardThunk = (id,data) => {
     return (dispatch) => {
         dispatch(updateCardReq())
-        axios.post(`http://localhost:5000/card/${id}`, data)
+        axios.put(`http://localhost:5000/card/${id}`, data)
              .then(response => {
                 const resp = response.data;
                 dispatch(updateCardSuc(resp));
+                dispatch(getCardThunk())
              })
              .catch(error => {
                 const err = error.Message;

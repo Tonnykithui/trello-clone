@@ -4,7 +4,7 @@ import ReactTextareaAutosize from 'react-textarea-autosize';
 import { addCardThunk } from '../redux/card';
 import { addCardListThunk } from '../redux/cardlist';
 
-const Add = ({ hideTextArea, cardList, text }) => {
+const Add = ({ hideTextArea, cardList, textId }) => {
 
     const [textArea, setTextArea] = useState('');
     const dispatch = useDispatch();
@@ -16,7 +16,7 @@ const Add = ({ hideTextArea, cardList, text }) => {
         }
 
         const cardInfo = {
-          text,
+          textId,
           textArea
         }
         cardList ? dispatch(addCardListThunk(title)) : dispatch(addCardThunk(cardInfo));
