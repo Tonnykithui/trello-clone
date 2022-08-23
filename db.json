@@ -23,79 +23,22 @@
     {
       "textArea": "try",
       "id": 6
+    },
+    {
+      "textArea": "keep ur cool",
+      "id": 7
     }
   ],
   "card": [
     {
-      "text": "Cleaning",
-      "textArea": "Testing card",
-      "id": 6
+      "id": 1,
+      "textArea": "e",
+      "text": "Gym"
     },
     {
-      "text": "Cleaning",
-      "textArea": "Somehow",
-      "id": 9
-    },
-    {
-      "text": "Cleaning",
-      "textArea": "Lets do this",
-      "id": 10
-    },
-    {
-      "text": "Cleaning",
-      "textArea": "Good things fast",
-      "id": 11
-    },
-    {
-      "id": 12
-    },
-    {
-      "id": 13
-    },
-    {
-      "text": "Cleaning",
-      "textArea": "Testing card",
-      "id": 14
-    },
-    {
-      "text": "Cleaning",
-      "textArea": "Testing card",
-      "id": 15
-    },
-    {
-      "text": "Cooking",
-      "textArea": "Good",
-      "id": 18
-    },
-    {
-      "text": "Cooking",
-      "textArea": "Good",
-      "id": 20
-    },
-    {
-      "text": "Gym",
-      "textArea": "Good",
-      "id": 21
-    },
-    {
-      "text": "Gym",
-      "textArea": "Good",
-      "id": 22
-    },
-    {
-      "text": "Gym",
-      "textArea": "Good",
-      "id": 23
-    },
-    {
-      "text": "Bike riding",
-      "textArea": "Good",
-      "id": 24
-    },
-    {
-      "text": "try",
-      "textArea": "Good",
-      "id": 25
+      "id": 2,
+      "textArea": "try",
+      "text": "Cooking"
     }
   ]
 }

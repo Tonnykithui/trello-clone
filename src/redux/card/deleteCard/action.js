@@ -25,7 +25,7 @@ export const deleteCardErr = error => {
 
 export const deleteCardThunk = data => {
     return (dispatch) => {
-        dispatch(deleteCardReq())
+        dispatch(deleteCardReq(data))
         axios.delete(`http://localhost:5000/card/${data}`)
              .then(response => {
                 const resp = response.data;
