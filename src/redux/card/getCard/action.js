@@ -1,5 +1,5 @@
 import axios from "axios"
-import { GET_CARD_ERR, GET_CARD_REQ, GET_CARD_SUC } from "./ActionType"
+import { GET_CARD_ERR, GET_CARD_REQ, GET_CARD_SUC } from "./actionType"
 
 export const getCardReq = data => {
     return {

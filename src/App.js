@@ -4,8 +4,9 @@ import React, { useState, useEffect } from 'react';
 import ReactTextareaAutosize from "react-textarea-autosize";
 import Add from "./components/Add";
 import { useSelector, useDispatch } from 'react-redux'
-import { getCardListThunk } from "./redux/cardlist";
-import { getCardThunk } from "./redux/card";
+import { getCardListThunk } from "./redux/cardlist/getCardList/action";
+import { getCardThunk } from "./redux/card/getCard/action";
+
 
 function App() {
 

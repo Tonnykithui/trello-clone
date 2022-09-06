@@ -1,6 +1,6 @@
 import axios from "axios"
-import { getCardListThunk } from "../getCardList/Action"
-import { ADD_CARDLIST_ERR, ADD_CARDLIST_REQ, ADD_CARDLIST_SUC } from "./ActionType"
+import { getCardListThunk } from "../getCardList/action"
+import { ADD_CARDLIST_ERR, ADD_CARDLIST_REQ, ADD_CARDLIST_SUC } from "./actionType"
 
 export const addCardListReq = data => {
     return {

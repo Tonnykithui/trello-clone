@@ -1,6 +1,6 @@
 import axios from "axios"
-import { getCardThunk } from "../getCard/Action"
-import { DELETE_CARD_ERR, DELETE_CARD_REQ, DELETE_CARD_SUC } from "./ActionType"
+import { getCardThunk } from "../getCard/action"
+import { DELETE_CARD_ERR, DELETE_CARD_REQ, DELETE_CARD_SUC } from "./actionType"
 
 export const deleteCardReq = data => {
     return {

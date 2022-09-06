@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux';
 import ReactTextareaAutosize from 'react-textarea-autosize';
-import { addCardThunk } from '../redux/card';
+import { addCardThunk } from '../redux/card/addCard/action';
 import { addCardListThunk } from '../redux/cardlist';
 
 const Add = ({ hideTextArea, cardList, text }) => {

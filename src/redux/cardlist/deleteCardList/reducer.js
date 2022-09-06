@@ -1,4 +1,4 @@
-import { DELETE_CARDLIST_ERR, DELETE_CARDLIST_REQ, DELETE_CARDLIST_SUC } from "./ActionType";
+import { DELETE_CARDLIST_ERR, DELETE_CARDLIST_REQ, DELETE_CARDLIST_SUC } from "./actionType";
 
 export const init = {
     loading:false,

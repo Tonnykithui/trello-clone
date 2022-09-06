@@ -1,4 +1,4 @@
-import { DELETE_CARD_ERR, DELETE_CARD_REQ, DELETE_CARD_SUC } from "./ActionType";
+import { DELETE_CARD_ERR, DELETE_CARD_REQ, DELETE_CARD_SUC } from "./actionType";
 
 export const init = {
     loading:false,

@@ -1,6 +1,6 @@
 import axios from "axios"
-import { getCardThunk } from "../getCard/Action"
-import { UPDATE_CARD_ERR, UPDATE_CARD_REQ, UPDATE_CARD_SUC } from "./ActionType"
+import { getCardThunk } from "../getCard/action"
+import { UPDATE_CARD_ERR, UPDATE_CARD_REQ, UPDATE_CARD_SUC } from "./actionType"
 
 export const updateCardReq = data => {
     return {

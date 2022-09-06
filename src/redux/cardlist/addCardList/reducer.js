@@ -1,4 +1,4 @@
-import { ADD_CARDLIST_ERR, ADD_CARDLIST_REQ, ADD_CARDLIST_SUC } from "./ActionType";
+import { ADD_CARDLIST_ERR, ADD_CARDLIST_REQ, ADD_CARDLIST_SUC } from "./actionType";
 
 const init = {
     loading:true,
